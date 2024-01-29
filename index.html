@@ -12,6 +12,7 @@
   <link rel="icon" type="image/x-icon" href="dist/assets/favicon.ico" />
   <link rel="stylesheet" href="dist/output.css" />
   <link rel="stylesheet" href="styles.css" />
+  <script src="dist/gallery.js"></script>
   <!-- Alpine.js -->
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   <!-- Start - Fonts -->
@@ -100,183 +101,261 @@
   <!-- Content -->
   <div class="container mx-auto">
     <h1 class="text-4xl pt-10 pb-8 font-bold">PORTFOLIO</h1>
-    <section class="text-neutral-700">
-      <div class="container w-full">
-        <div class="flex flex-wrap w-full">
-          <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1675789203977-70070dae0799?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a person standing in front of a rock formation"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1675789203977-70070dae0799?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1674985594089-eab270e843c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1963&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a cat laying on top of a sidewalk next to the ocean"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1674985594089-eab270e843c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1963&q=80" />
-                </a>
-              </div>
-            </div>
-            <div class="w-full p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1667093060577-02f07eb01585?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1750&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a man standing on a beach next to the ocean"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1667093060577-02f07eb01585?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1750&q=80" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-full p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1676978647680-0e60a584c5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a snow covered mountain with trees on the side"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1676978647680-0e60a584c5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" />
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1675910568522-c187fd74d5b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a branch of a plant floating in a body of water"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1675910568522-c187fd74d5b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" />
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1675971074488-351394caf6aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a blue sky with a lot of red and orange clouds"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1675971074488-351394caf6aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" />
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1655908932015-7650b401e2f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a view of the ocean from the top of a hill"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1655908932015-7650b401e2f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" />
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1675189729507-b90d7cb6c592?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1816&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a pheasant flying in the sky with its wings spread"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1675189729507-b90d7cb6c592?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1816&q=80" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-full p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1654018869756-d08407972836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2918&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a statue of a man next to a statue of a woman"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1654018869756-d08407972836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2918&q=80" />
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1677075610184-57d21d023e5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a city street with tall buildings in the background"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1677075610184-57d21d023e5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80" />
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1558102400-72da9fdbecae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1592&q=80"
-                  data-fancybox="gallery">
-                  <img alt="25 de abril bridge spanning over Tagus river"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1558102400-72da9fdbecae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1592&q=80" />
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1510673825466-302bc330ab95?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a lot of lanterns floating in the air at night"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1510673825466-302bc330ab95?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80" />
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1675620705848-bcab2d4d98a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a flock of seaguls flying over a body of water"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1675620705848-bcab2d4d98a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="flex w-full md:w-1/2 flex-wrap">
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1642415390616-2ac6727ac550?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                  data-fancybox="gallery">
-                  <img alt="a statue of a headless angel"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1642415390616-2ac6727ac550?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" />
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/2 p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1551346072-8ba2706b0f36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2052&q=80"
-                  data-fancybox="gallery">
-                  <img alt="Monument to the Discoveries viewed from top to bottom"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1551346072-8ba2706b0f36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2052&q=80" />
-                </a>
-              </div>
-            </div>
-            <div class="w-full p-1">
-              <div class="overflow-hidden h-full w-full">
-                <a href="https://images.unsplash.com/photo-1624385690664-38a3af477cd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
-                  data-fancybox="gallery">
-                  <img
-                    alt="a group of people walking along the museum of art, architecture and technology of lisbon next to the Tagus river"
-                    class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
-                    src="https://images.unsplash.com/photo-1624385690664-38a3af477cd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" />
-                </a>
-              </div>
-            </div>
-          </div>
+    <div id="myBtnContainer">
+      <button id="showAllBtn" class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button id="natureBtn" class="btn" onclick="filterSelection('nature')"> Nature</button>
+      <button id="animalsBtn" class="btn" onclick="filterSelection('animals')"> Animals</button>
+      <button id="landscapesBtn" class="btn" onclick="filterSelection('landscapes')"> Landscapes</button>
+<button id="portraitsBtn" class="btn" onclick="filterSelection('portraits')"> Portraits</button>
+    </div>
+    
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <!-- Animals -->
+      <div class="column animals">
+        <div class="content">
+          <img src="/dist/assets/photos/Animals/ (1).jpg" alt="Animal 1" style="width:100%">
+          <h4>Animal 1</h4>
+          <p>Lorem ipsum dolor..</p>
         </div>
       </div>
-    </section>
-  </div>
+      <div class="column animals">
+        <div class="content">
+          <img src="/dist/assets/photos/Animals/ (2).jpg" alt="Animal 2" style="width:100%">
+          <h4>Animal 2</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column animals">
+        <div class="content">
+          <img src="dist/assets/photos/Animals/ (3).jpg" alt="Animal 3" style="width:100%">
+          <h4>Animal 3</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column animals">
+        <div class="content">
+          <img src="dist/assets/photos/Animals/ (4).jpg" alt="Animal 4" style="width:100%">
+          <h4>Animal 4</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column animals">
+        <div class="content">
+          <img src="dist/assets/photos/Animals/ (5).jpg" alt="Animal 5" style="width:100%">
+          <h4>Animal 5</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column animals">
+        <div class="content">
+          <img src="dist/assets/photos/Animals/ (6).jpg" alt="Animal 6" style="width:100%">
+          <h4>Animal 6</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <!-- Repeat for additional animal images -->
+    
+      <!-- Landscapes -->
+      <div class="column landscapes">
+        <div class="content">
+          <img src="dist/assets/photos/Landscapes/ (1).jpg" alt="Landscape 1" style="width:100%">
+          <h4>Landscape 1</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column landscapes">
+        <div class="content">
+          <img src="dist/assets/photos/Landscapes/ (2).jpg" alt="Landscape 2" style="width:100%">
+          <h4>Landscape 2</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column landscapes">
+        <div class="content">
+          <img src="dist/assets/photos/Landscapes/ (3).jpg" alt="Landscape 3" style="width:100%">
+          <h4>Landscape 3</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column landscapes">
+        <div class="content">
+          <img src="dist/assets/photos/Landscapes/ (4).jpg" alt="Landscape 4" style="width:100%">
+          <h4>Landscape 4</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column landscapes">
+        <div class="content">
+          <img src="dist/assets/photos/Landscapes/(5).jpg" alt="Landscape 5" style="width:100%">
+          <h4>Landscape 5</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <!-- Repeat for additional landscape images -->
+    
+      <!-- Nature -->
+      <div class="column nature">
+        <div class="content">
+          <img src="dist/assets/photos/Nature/ (1).jpg" alt="Nature 1" style="width:100%">
+          <h4>Nature 1</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img src="dist/assets/photos/Nature/ (2).jpg" alt="Nature 2" style="width:100%">
+          <h4>Nature 2</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column nature">
+        <div class="content">
+          <img src="dist/assets/photos/Nature/ (3).jpg" alt="Nature 3" style="width:100%">
+          <h4>Nature 3</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <!-- Repeat for additional nature images -->
+    
+      <!-- Portraits -->
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (1).jpg" alt="Portrait 1" style="width:100%">
+          <h4>Portrait 1</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (2).jpg" alt="Portrait 2" style="width:100%">
+          <h4>Portrait 2</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (3).jpg" alt="Portrait 3" style="width:100%">
+          <h4>Portrait 3</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (4).jpg" alt="Portrait 4" style="width:100%">
+          <h4>Portrait 4</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (5).jpg" alt="Portrait 5" style="width:100%">
+          <h4>Portrait 5</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (6).jpg" alt="Portrait 6" style="width:100%">
+          <h4>Portrait 6</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (7).jpg" alt="Portrait 7" style="width:100%">
+          <h4>Portrait 7</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (8).jpg" alt="Portrait 8" style="width:100%">
+          <h4>Portrait 8</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (9).jpg" alt="Portrait 9" style="width:100%">
+          <h4>Portrait 9</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (10).jpg" alt="Portrait 10" style="width:100%">
+          <h4>Portrait 10</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (11).jpg" alt="Portrait 11" style="width:100%">
+          <h4>Portrait 11</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (12).jpg" alt="Portrait 12" style="width:100%">
+          <h4>Portrait 12</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (13).jpg" alt="Portrait 13" style="width:100%">
+          <h4>Portrait 13</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (14).jpg" alt="Portrait 14" style="width:100%">
+          <h4>Portrait 14</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (15).jpg" alt="Portrait 15" style="width:100%">
+          <h4>Portrait 15</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (16).jpg" alt="Portrait 16" style="width:100%">
+          <h4>Portrait 16</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (17).jpg" alt="Portrait 17" style="width:100%">
+          <h4>Portrait 17</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (18).jpg" alt="Portrait 18" style="width:100%">
+          <h4>Portrait 18</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column portraits">
+        <div class="content">
+          <img src="dist/assets/photos/Portraits/ (19).jpg" alt="Portrait 19" style="width:100%">
+          <h4>Portrait 19</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <!-- Repeat for additional portrait images -->
+    </div>
+       <!-- END GRID -->
+    </div>
   <!-- Footer -->
   <footer>
     <div class="max-w-screen-xl py-16 mx-auto">
@@ -308,6 +387,8 @@
     </div>
   </footer>
   <!-- Script for the LightBox -->
+
+  
   <script>
     Fancybox.bind("[data-fancybox]", {});
   </script>
