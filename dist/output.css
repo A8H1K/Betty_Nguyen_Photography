@@ -5,7 +5,7 @@
 body {
   background-color: #f1f1f1;
   padding: 20px;
-  font-family: Arial;
+  font-family: Noto Serif Kannada;
 }
 
 /* Center website */
@@ -120,7 +120,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Noto Serif Kannada, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -203,7 +203,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Noto Serif Kannada;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -1049,15 +1049,15 @@ video {
 }
 
 .font-nothingyoucoulddo {
-  font-family: Nothing You Could Do, cursive;
+  font-family: Noto Serif Kannada;
 }
 
 .font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Noto Serif Kannada;
 }
 
 .font-signika {
-  font-family: Signika, sans-serif;
+  font-family: Noto Serif Kannada;
 }
 
 .text-2xl {
